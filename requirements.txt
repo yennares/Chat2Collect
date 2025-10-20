@@ -1,0 +1,9 @@
+flask
+groq
+langchain
+langchain_community
+langchain_openai
+pypdf
+streamlit
+typing
+python-dotenv

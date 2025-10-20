@@ -71,7 +71,7 @@ Edit the `recipient_details` dictionary in `app.py` to customize debtor informat
 - Grace period
 
 ### System Prompts
-The AI agent's behavior is controlled by prompts in `call_prompt1.txt`. You can customize:
+The AI agent's behavior is controlled by prompts in `systemprompt.txt`. You can customize:
 - Agent personality and tone
 - Collection strategies
 - Compliance guidelines
@@ -82,7 +82,7 @@ The AI agent's behavior is controlled by prompts in `call_prompt1.txt`. You can 
 ```
 Chat2Collect/
 ├── app.py                  # Main Streamlit application
-├── call_prompt1.txt        # System prompt for collection agent
+├── systemprompt.txt        # System prompt for collection agent
 ├── requirements.txt        # Python dependencies
 ├── Dockerfile             # Docker configuration
 ├── logo.png               # Application logo
